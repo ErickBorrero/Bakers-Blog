@@ -1,0 +1,146 @@
+nav#mainNav {
+    position: absolute;
+    width: 85%;
+    left: 0;
+    right: 0;
+}
+nav button.navbar-toggler:focus {
+    outline: none;
+}
+button.btn-brand-primary {
+    background-color: #33b9e8;
+    color: white;
+    border: 1px solid white;
+}
+button.btn-brand-secondary {
+    background-color: white;
+    color: #33b9e8;
+    border: 1px solid #33b9e8;
+}
+button.btn:active {
+    transition: .2s ease;
+    transform: scale(0.95);
+}
+.text-brand {
+    color: #25aae2;
+}
+main.feed .mainFeed.row{
+    padding: 0 100px;
+    max-width: 2000px;
+}
+
+@media (max-width: 1550px)  {
+    main.feed .mainFeed.row{
+        padding: 0;
+    }
+}
+@media (max-width: 576px) {
+    nav.navbar {
+        z-index: 4;
+        position: static;
+        width: 100%;
+    }
+}
+
+/* ---------------------------------- */
+/* Notification Boxes
+------------------------------------- */
+#result .success,
+.notification {
+	line-height: 24px;
+	margin-bottom: 15px;
+	position: relative;
+	padding: 20px 26px;
+	padding-right: 50px;
+	border-radius: 3px;
+}
+
+.notification p { margin: 0; font-size: 15px; }
+
+#result .success,
+.notification.success {
+	background-color: #EBF6E0;
+}
+
+#result .success,
+.notification.success,
+.notification.success a,
+.notification.success strong {
+	color: #5f9025;
+}
+
+.notification.error {
+	background-color: #ffe9e9;
+}
+.notification.error,
+.notification.error a,
+.notification.error strong {
+	color: #de5959;
+}
+
+.notification.warning {
+	background-color: #FBFADD;
+}
+.notification.warning,
+.notification.warning a,
+.notification.warning strong {
+	color: #8f872e;
+}
+
+.notification.notice h4 { font-size: 19px; margin: 3px 0 15px 0; }
+.notification.notice h4,
+.notification.notice,
+.notification.notice a,
+.notification.notice strong {
+	color: #3184ae
+}
+
+.notification.notice {
+	background-color: #E9F7FE;
+}
+
+.notification.notice.large{
+	padding: 32px 36px;
+}
+
+.notification strong { font-weight: 700; }
+.notification a { text-decoration: underline; }
+
+
+body .notification strong { border: none; }
+
+.notification.success .close,
+.notification.error .close,
+.notification.warning .close,
+.notification.notice .close {
+	padding: 0px 9px;
+	position: absolute;
+	right: 0;
+	top: 22px;
+	display: block;
+	height: 8px;
+	width: 8px;
+	cursor: pointer;
+}
+
+.notification.notice p span i { font-weight: 500; }
+.notification a.button {
+	float: right;
+	color: #fff;
+	margin-top: 3px;
+}
+
+.notification.notice a.button { background-color: #388fc5; }
+.notification.warning a.button { background-color: #dfbe51; }
+.notification.error a.button { background-color: #d34c4c; }
+.notification.success a.button { background-color: #79ba38; }
+
+.notification.closeable a.close:before {
+	content: "\ea02";
+	font-family: "Feather-Icons";
+	position: absolute;
+	right: 25px;
+	top: 0;
+	cursor: pointer;
+	font-weight: 600;
+}
