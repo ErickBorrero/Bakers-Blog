@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.btn-0B1F47{
+    background-color: #0B1F47 !important;
+    border: #0B1F47 !important;
+   
+  }
+.btn-0B1F47:focus{
+    background-color:#0B1F47 !important;
+    border: #0B1F47 !important;
+}
+.btn-25aae2{
+    background-color:#25aae2 !important;
+    border:#25aae2 !important;
+   
+  }
+.btn-25aae2:focus{
+    background-color:#25eee2 !important;
+    border:#25aae2 !important;
+}
+.lato-bold{
+    font-family: 'Lato', sans-serif;
+    font: normal normal 900 45px Lato;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.lato-light{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0px;
+    font: normal normal 300 22px/36px Lato;
+    color: #9A9A9A;
+}
+.popins{
+    font-family: 'popins', sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .lato-bold {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .lato-bold{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .lato-light{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    img.quotation {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .lato-bold{
+        font-size: 25px;
+    }
+    .lato-light{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
