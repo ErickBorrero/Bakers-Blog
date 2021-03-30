@@ -14,6 +14,9 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
+  appBar: {
+    backgroundColor: 'primary',
+  },
   grow: {
     flexGrow: 1,
   },
@@ -161,7 +164,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
+      <AppBar className={classes.appBar} position="static">
         <Toolbar>
           <IconButton
             edge="start"
